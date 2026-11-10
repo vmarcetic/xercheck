@@ -1,0 +1,17 @@
+ERMHDR	16.1	2026-01-01	Project	xercheck	SYNTHETIC	db	Project Management	USD
+%T	PROJECT
+%F	proj_id	proj_short_name
+%R	1	SYNTHETIC-A
+%T	TASK
+%F	task_id	proj_id	task_code	task_name	task_type	total_float_hr_cnt
+%R	11	1	A11	Start A	TT_Mile	0
+%R	10	1	A10	Local A	TT_Task	0
+%R	12	1	A12	Finish A	TT_FinMile	0
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type
+%R	1	10	11	1	1	PR_FS
+%R	2	12	10	1	1	PR_FS
+%R	3	10	77	1	1	PR_FS
+%R	4	12	500	1	9	PR_FS
+%R	5	10		1	1	PR_FS
+%E

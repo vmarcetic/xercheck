@@ -1,0 +1,139 @@
+ERMHDR	16.1	2018-12-20	Project	admin	admin	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	Enterprise	?<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%R	636	540	/vImPk4L1hGwBAAGKXDliR	0	E&C	?<html>  <head>      </head>  <body>    Engineering and Construction  </body></html>
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
+%R	4522	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	P02					178		0	1	10	2	500		0	0.0000	2018-12-20 00:00	2018-12-17 00:00		2019-06-04 08:00	2018-12-20 13:11			DT_FixedDUR2	A	fezCxO2ISAmFR86g5+h4DA	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc						7	Y							
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	178	Y	Corporate - Standard Full Time			2000-05-23 16:14	CA_Base	8	40	172	2000	N	(0||CalendarData()((0||DaysOfWeek()((0||1()())(0||2()((0||0(f|16:00|s|08:00)())))(0||3()((0||0(f|16:00|s|08:00)())))(0||4()((0||0(f|16:00|s|08:00)())))(0||5()((0||0(f|16:00|s|08:00)())))(0||6()((0||0(f|16:00|s|08:00)())))(0||7()())))(0||Exceptions()((0||0(d|41519)())(0||1(d|41155)())(0||2(d|40364)())(0||3(d|40910)())(0||4(d|41633)())(0||5(d|41094)())(0||6(d|40427)())(0||7(d|40536)())(0||8(d|41235)())(0||9(d|40179)())(0||10(d|40903)())(0||11(d|40543)())(0||12(d|40791)())(0||13(d|41421)())(0||14(d|40728)())(0||15(d|41275)())(0||16(d|41606)())(0||17(d|40329)())(0||18(d|41459)())(0||19(d|40871)())(0||20(d|40507)())(0||21(d|41057)())(0||22(d|40693)())(0||23(d|41268)())))))
+%R	5829	N	Trades -  5 Day Workweek			2000-04-26 14:11	CA_Base	8	40	172	2000	N	(0||CalendarData()((0||DaysOfWeek()((0||1()())(0||2()((0||0(f|12:00|s|08:00)())(0||1(f|17:00|s|13:00)())))(0||3()((0||0(f|12:00|s|08:00)())(0||1(f|17:00|s|13:00)())))(0||4()((0||0(f|12:00|s|08:00)())(0||1(f|17:00|s|13:00)())))(0||5()((0||0(f|12:00|s|08:00)())(0||1(f|17:00|s|13:00)())))(0||6()((0||0(f|12:00|s|08:00)())(0||1(f|17:00|s|13:00)())))(0||7()())))(0||Exceptions()((0||0(d|41275)())(0||1(d|41606)())(0||2(d|40329)())(0||3(d|41519)())(0||4(d|40910)())(0||5(d|41155)())(0||6(d|41633)())(0||7(d|40364)())(0||8(d|41094)())(0||9(d|41459)())(0||10(d|40427)())(0||11(d|40536)())(0||12(d|41235)())(0||13(d|40871)())(0||14(d|40179)())(0||15(d|40903)())(0||16(d|40507)())(0||17(d|41057)())(0||18(d|40693)())(0||19(d|40543)())(0||20(d|41268)())(0||21(d|40791)())(0||22(d|41421)())(0||23(d|40728)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	4522	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		total_float_hr_cnt,ASCtask_code,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	26025	4522	636	400	1	Y	N	WS_Open	P02	Project 02 CPM		22417	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_PF_cpi	YJYuHYRBRvuM0YXwy22krQ		
+%T	RSRC
+%F	rsrc_id	parent_rsrc_id	clndr_id	role_id	shift_id	user_id	pobs_id	guid	rsrc_seq_num	email_addr	employee_code	office_phone	other_phone	rsrc_name	rsrc_short_name	rsrc_title_name	def_qty_per_hr	cost_qty_type	ot_factor	active_flag	auto_compute_act_flag	def_cost_qty_link_flag	ot_flag	curr_id	unit_id	rsrc_type	location_id	rsrc_notes	load_tasks_flag	level_flag	last_checksum
+%R	6571		5829					JVyoBhYevkmiVZ63C0O7Mw	1					E&C Resources	E&C Resources		1	QT_Hour		Y	N	Y	N	1		RT_Labor		ï»¿		N	
+%R	6902	6571	5829					rdSB6L9xH0ufXLTZtEvjOQ	1					R1	P02_R1		1	QT_Hour		Y	Y	Y	N	1		RT_Labor		ï»¿		N	
+%T	RSRCRATE
+%F	rsrc_rate_id	rsrc_id	max_qty_per_hr	cost_per_qty	start_date	shift_period_id	cost_per_qty2	cost_per_qty3	cost_per_qty4	cost_per_qty5
+%R	6949	6571	1	0.0000	2010-01-01 00:00		0.0000	0.0000	0.0000	0.0000
+%R	7177	6902	10	0.0000	2018-01-01 00:00					
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id
+%R	102138	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A01	New Activity		0	0	0	0	0	0	0	0	0	0				2018-12-19 16:00	2018-12-19 16:00		2018-12-20 08:00	2018-12-20 08:00	2018-12-20 08:00	2018-12-20 08:00	2018-12-20 08:00	2018-12-20 08:00	2018-12-19 16:00	2018-12-19 16:00		PT_Normal					cco9EZnrSQSdfKvK5Oz3UA				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102139	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A02	New Activity		0	0	16	0	0	0	16	0	0	0				2018-12-20 08:00	2018-12-21 16:00		2018-12-20 08:00	2018-12-21 16:00	2018-12-20 08:00	2018-12-21 16:00	2018-12-20 08:00	2018-12-21 16:00	2018-12-20 08:00	2018-12-21 16:00		PT_Normal					UesNFSRWRO+TjkJYhBiLEA				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102140	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A03	New Activity		0	0	64	0	6	6	64	0	0	0				2018-12-24 08:00	2019-01-02 16:00		2018-12-24 08:00	2019-01-02 16:00	2018-12-24 08:00	2019-01-02 16:00	2018-12-24 08:00	2019-01-02 16:00	2018-12-24 08:00	2019-01-02 16:00		PT_Normal					pLf1E8QbSjO/+33mB+F4vQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102141	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A04	New Activity		0	0	32	0	14	14	32	0	0	0				2019-01-03 08:00	2019-01-08 16:00		2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00		PT_Normal					5azM1d+VRXahGh56LToqdA				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102142	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A05	New Activity		0	0	32	0	0	0	32	0	0	0				2019-01-03 08:00	2019-01-08 16:00		2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00	2019-01-03 08:00	2019-01-08 16:00		PT_Normal					+E97UlDNRje7ld1JTKM5ew				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102143	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A06	New Activity		0	0	16	0	0	0	16	0	0	0				2019-01-09 08:00	2019-01-10 16:00		2019-01-09 08:00	2019-01-10 16:00	2019-01-09 08:00	2019-01-10 16:00	2019-01-09 08:00	2019-01-10 16:00	2019-01-09 08:00	2019-01-10 16:00		PT_Normal					FH9+WMOMRPiXSfNOJGzcEg				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102144	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A07	New Activity	6902	0	0	80	0	480	480	80	0	0	0				2019-01-11 08:00	2019-01-24 16:00		2019-01-11 08:00	2019-01-24 16:00	2019-01-11 08:00	2019-01-24 16:00	2019-01-11 08:00	2019-01-24 16:00	2019-01-11 08:00	2019-01-24 16:00		PT_Normal					gKCe68CITLCPeTSRxS91cQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102145	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A08	New Activity	6902	64	32	48	0	336	336	48	0	0	0				2019-01-23 08:00	2019-01-30 16:00		2019-01-11 08:00	2019-01-18 16:00	2019-01-11 08:00	2019-01-18 16:00	2019-01-11 08:00	2019-01-18 16:00	2019-01-23 08:00	2019-01-30 16:00		PT_Normal					8rxl8xYJQKmvM3Mm4OCCzw				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102146	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A09	New Activity		32	32	40	0	0	0	40	0	0	0				2019-01-31 08:00	2019-02-06 16:00		2019-01-25 08:00	2019-01-31 16:00	2019-01-25 08:00	2019-01-31 16:00	2019-01-25 08:00	2019-01-31 16:00	2019-01-31 08:00	2019-02-06 16:00		PT_Normal					vK3uS997RNKl86r8iMGnvQ				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102147	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A10	New Activity		0	0	72	0	0	0	72	0	0	0				2019-01-25 08:00	2019-02-06 16:00		2019-01-25 08:00	2019-02-06 16:00	2019-01-25 08:00	2019-02-06 16:00	2019-01-25 08:00	2019-02-06 16:00	2019-01-25 08:00	2019-02-06 16:00		PT_Normal					pyQcQ0aMSLOH2lFxG6F9WQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102148	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A11	New Activity		0	0	16	0	0	0	16	0	0	0				2019-02-07 08:00	2019-02-08 16:00		2019-02-07 08:00	2019-02-08 16:00	2019-02-07 08:00	2019-02-08 16:00	2019-02-07 08:00	2019-02-08 16:00	2019-02-07 08:00	2019-02-08 16:00		PT_Normal					saNz2yxMQ4G2fCsDUTavcw				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102149	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A12	New Activity		48	0	32	0	0	0	32	0	0	0				2019-02-19 08:00	2019-02-22 16:00		2019-02-11 08:00	2019-02-14 16:00	2019-02-11 08:00	2019-02-14 16:00	2019-02-11 08:00	2019-02-14 16:00	2019-02-19 08:00	2019-02-22 16:00		PT_Normal					Dov/EdFqToOUI8lODo/72A				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102150	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A13	New Activity	6902	0	0	80	0	720	720	80	0	0	0				2019-02-11 08:00	2019-02-22 16:00		2019-02-11 08:00	2019-02-22 16:00	2019-02-11 08:00	2019-02-22 16:00	2019-02-11 08:00	2019-02-22 16:00	2019-02-11 08:00	2019-02-22 16:00		PT_Normal					0DsmdciWSYu8ITlKw6jD4Q				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102151	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A14	New Activity		0	0	80	0	30	30	80	0	0	0				2019-02-25 08:00	2019-03-08 16:00		2019-02-25 08:00	2019-03-08 16:00	2019-02-25 08:00	2019-03-08 16:00	2019-02-25 08:00	2019-03-08 16:00	2019-02-25 08:00	2019-03-08 16:00		PT_Normal					vMC6Gw+3T8GCjHIl7haYlQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102152	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A16	New Activity	6902	64	64	16	0	64	64	16	0	0	0				2019-03-07 08:00	2019-03-08 16:00		2019-02-25 08:00	2019-02-26 16:00	2019-02-25 08:00	2019-02-26 16:00	2019-02-25 08:00	2019-02-26 16:00	2019-03-07 08:00	2019-03-08 16:00		PT_Normal					byeFD34hTX2WQqN7Ma3HAg				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102153	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A17	New Activity		0	0	48	0	40	40	48	0	0	0				2019-03-11 08:00	2019-03-18 16:00		2019-03-11 08:00	2019-03-18 16:00	2019-03-11 08:00	2019-03-18 16:00	2019-03-11 08:00	2019-03-18 16:00	2019-03-11 08:00	2019-03-18 16:00		PT_Normal					ap7ldsS2T9S2UK7Szs0T2A				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102154	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A19	New Activity		0	0	56	0	21	21	56	0	0	0				2019-03-19 08:00	2019-03-27 16:00		2019-03-19 08:00	2019-03-27 16:00	2019-03-19 08:00	2019-03-27 16:00	2019-03-19 08:00	2019-03-27 16:00	2019-03-19 08:00	2019-03-27 16:00		PT_Normal					/u0KhttNTpiNTKmUCF21OQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102155	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A20	New Activity		88	88	16	0	0	0	16	0	0	0				2019-03-26 08:00	2019-03-27 16:00		2019-03-11 08:00	2019-03-12 16:00	2019-03-11 08:00	2019-03-12 16:00	2019-03-11 08:00	2019-03-12 16:00	2019-03-26 08:00	2019-03-27 16:00		PT_Normal					CXz7aHcpSlCa26OperubkA				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102156	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A21	New Activity	6902	0	0	48	0	240	240	48	0	0	0				2019-03-28 08:00	2019-04-04 16:00		2019-03-28 08:00	2019-04-04 16:00	2019-03-28 08:00	2019-04-04 16:00	2019-03-28 08:00	2019-04-04 16:00	2019-03-28 08:00	2019-04-04 16:00		PT_Normal					Ocsog1DYRFG27Pk+luUaAw				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102157	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A22	New Activity	6902	0	0	24	0	192	192	24	0	0	0				2019-04-05 08:00	2019-04-09 16:00		2019-04-05 08:00	2019-04-09 16:00	2019-04-05 08:00	2019-04-09 16:00	2019-04-05 08:00	2019-04-09 16:00	2019-04-05 08:00	2019-04-09 16:00		PT_Normal					rhv2DG0YRPys0JbI7dYm2A				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102158	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A23	New Activity		0	0	72	0	0	0	72	0	0	0				2019-04-10 08:00	2019-04-22 16:00		2019-04-10 08:00	2019-04-22 16:00	2019-04-10 08:00	2019-04-22 16:00	2019-04-10 08:00	2019-04-22 16:00	2019-04-10 08:00	2019-04-22 16:00		PT_Normal					evoLZqGrQgGaxCAaDbiilw				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102159	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A24	New Activity		0	0	24	0	0	0	24	0	0	0				2019-04-23 08:00	2019-04-25 16:00		2019-04-23 08:00	2019-04-25 16:00	2019-04-23 08:00	2019-04-25 16:00	2019-04-23 08:00	2019-04-25 16:00	2019-04-23 08:00	2019-04-25 16:00		PT_Normal					5w6zj8MuSxePOisNGlEwcg				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102160	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A25	New Activity	6902	0	0	80	0	240	240	80	0	0	0				2019-04-26 08:00	2019-05-09 16:00		2019-04-26 08:00	2019-05-09 16:00	2019-04-26 08:00	2019-05-09 16:00	2019-04-26 08:00	2019-05-09 16:00	2019-04-26 08:00	2019-05-09 16:00		PT_Normal					NUaWlQGrS0u8roGIQbP7oA				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102161	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A27	New Activity		0	0	40	0	0	0	40	0	0	0				2019-05-10 08:00	2019-05-16 16:00		2019-05-10 08:00	2019-05-16 16:00	2019-05-10 08:00	2019-05-16 16:00	2019-05-10 08:00	2019-05-16 16:00	2019-05-10 08:00	2019-05-16 16:00		PT_Normal					1OkYmgIBT/GP8xBJdc/reA				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102162	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A28	New Activity		104	104	16	0	0	0	16	0	0	0				2019-05-15 08:00	2019-05-16 16:00		2019-04-26 08:00	2019-04-29 16:00	2019-04-26 08:00	2019-04-29 16:00	2019-04-26 08:00	2019-04-29 16:00	2019-05-15 08:00	2019-05-16 16:00		PT_Normal					8GdvzyBFRgqx8XGaEYMgqQ				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102163	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A29	New Activity		16	16	24	0	0	0	24	0	0	0				2019-05-21 08:00	2019-05-23 16:00		2019-05-17 08:00	2019-05-21 16:00	2019-05-17 08:00	2019-05-21 16:00	2019-05-17 08:00	2019-05-21 16:00	2019-05-21 08:00	2019-05-23 16:00		PT_Normal					WP0Z0AHIQyucyyxTGzTtCA				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102164	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A30	New Activity		0	0	40	0	0	0	40	0	0	0				2019-05-17 08:00	2019-05-23 16:00		2019-05-17 08:00	2019-05-23 16:00	2019-05-17 08:00	2019-05-23 16:00	2019-05-17 08:00	2019-05-23 16:00	2019-05-17 08:00	2019-05-23 16:00		PT_Normal					RPLHXmW9TB2YwQhzcKb/CQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102165	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A31	New Activity		0	0	56	0	18	18	56	0	0	0				2019-05-24 08:00	2019-06-03 16:00		2019-05-24 08:00	2019-06-03 16:00	2019-05-24 08:00	2019-06-03 16:00	2019-05-24 08:00	2019-06-03 16:00	2019-05-24 08:00	2019-06-03 16:00		PT_Normal					Ne0NYgExRDezXJGODz7acQ				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102166	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A32	New Activity		0	0	0	0	0	0	0	0	0	0				2019-06-03 16:00	2019-06-03 16:00		2019-06-04 08:00	2019-06-04 08:00	2019-06-04 08:00	2019-06-04 08:00	2019-06-04 08:00	2019-06-04 08:00	2019-06-03 16:00	2019-06-03 16:00		PT_Normal					Mi7vRmKuS+isKApLPt3FCg				Y	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102167	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A15	New Activity		64	64	64	0	0	0	64	0	0	0				2019-02-27 08:00	2019-03-08 16:00		2019-02-15 08:00	2019-02-26 16:00	2019-02-15 08:00	2019-02-26 16:00	2019-02-15 08:00	2019-02-26 16:00	2019-02-27 08:00	2019-03-08 16:00		PT_Normal					AxB9l0AoRBGa5dlX0ssxeg				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102168	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A18	New Activity		16	16	32	0	0	0	32	0	0	0				2019-03-13 08:00	2019-03-18 16:00		2019-03-11 08:00	2019-03-14 16:00	2019-03-11 08:00	2019-03-14 16:00	2019-03-11 08:00	2019-03-14 16:00	2019-03-13 08:00	2019-03-18 16:00		PT_Normal					pigrriThRvKzhm35w8gzAQ				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%R	102169	4522	26025	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A26	New Activity		32	32	48	0	0	0	48	0	0	0				2019-05-02 08:00	2019-05-09 16:00		2019-04-26 08:00	2019-05-03 16:00	2019-04-26 08:00	2019-05-03 16:00	2019-04-26 08:00	2019-05-03 16:00	2019-05-02 08:00	2019-05-09 16:00		PT_Normal					R9z23/eVRkG4oVMKj4Ja8g				N	0	0			2018-12-20 13:11	2018-12-20 13:11	admin	admin	
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	41649	102139	102138	4522	4522	PR_FS	0		2018-12-20 08:00	2018-12-20 08:00
+%R	41650	102140	102139	4522	4522	PR_FS	0		2018-12-21 16:00	2018-12-24 08:00
+%R	41651	102141	102140	4522	4522	PR_FS	0		2019-01-02 16:00	2019-01-03 08:00
+%R	41652	102142	102140	4522	4522	PR_FS	0		2019-01-02 16:00	2019-01-03 08:00
+%R	41653	102143	102141	4522	4522	PR_FS	0		2019-01-08 16:00	2019-01-09 08:00
+%R	41654	102143	102142	4522	4522	PR_FS	0		2019-01-08 16:00	2019-01-09 08:00
+%R	41655	102144	102143	4522	4522	PR_FS	0		2019-01-10 16:00	2019-01-11 08:00
+%R	41656	102145	102143	4522	4522	PR_FS	0		2019-01-10 16:00	2019-01-23 08:00
+%R	41657	102147	102144	4522	4522	PR_FS	0		2019-01-24 16:00	2019-01-25 08:00
+%R	41658	102146	102144	4522	4522	PR_FS	0		2019-01-24 16:00	2019-01-31 08:00
+%R	41659	102146	102145	4522	4522	PR_FS	0		2019-01-18 16:00	2019-01-31 08:00
+%R	41660	102148	102146	4522	4522	PR_FS	0		2019-01-31 16:00	2019-02-07 08:00
+%R	41661	102148	102147	4522	4522	PR_FS	0		2019-02-06 16:00	2019-02-07 08:00
+%R	41662	102149	102148	4522	4522	PR_FS	0		2019-02-08 16:00	2019-02-19 08:00
+%R	41663	102150	102148	4522	4522	PR_FS	0		2019-02-08 16:00	2019-02-11 08:00
+%R	41664	102151	102149	4522	4522	PR_FS	0		2019-02-14 16:00	2019-02-25 08:00
+%R	41665	102167	102149	4522	4522	PR_FS	0		2019-02-14 16:00	2019-02-27 08:00
+%R	41666	102152	102149	4522	4522	PR_FS	0		2019-02-14 16:00	2019-03-07 08:00
+%R	41667	102151	102150	4522	4522	PR_FS	0		2019-02-22 16:00	2019-02-25 08:00
+%R	41668	102152	102150	4522	4522	PR_FS	0		2019-02-22 16:00	2019-03-07 08:00
+%R	41669	102153	102151	4522	4522	PR_FS	0		2019-03-08 16:00	2019-03-11 08:00
+%R	41670	102168	102151	4522	4522	PR_FS	0		2019-03-08 16:00	2019-03-13 08:00
+%R	41671	102155	102151	4522	4522	PR_FS	0		2019-03-08 16:00	2019-03-26 08:00
+%R	41672	102153	102167	4522	4522	PR_FS	0		2019-02-26 16:00	2019-03-11 08:00
+%R	41673	102168	102167	4522	4522	PR_FS	0		2019-02-26 16:00	2019-03-13 08:00
+%R	41674	102155	102167	4522	4522	PR_FS	0		2019-02-26 16:00	2019-03-26 08:00
+%R	41675	102153	102152	4522	4522	PR_FS	0		2019-02-26 16:00	2019-03-11 08:00
+%R	41676	102155	102152	4522	4522	PR_FS	0		2019-02-26 16:00	2019-03-26 08:00
+%R	41677	102154	102153	4522	4522	PR_FS	0		2019-03-18 16:00	2019-03-19 08:00
+%R	41678	102154	102168	4522	4522	PR_FS	0		2019-03-14 16:00	2019-03-19 08:00
+%R	41679	102156	102154	4522	4522	PR_FS	0		2019-03-27 16:00	2019-03-28 08:00
+%R	41680	102156	102155	4522	4522	PR_FS	0		2019-03-12 16:00	2019-03-28 08:00
+%R	41681	102157	102156	4522	4522	PR_FS	0		2019-04-04 16:00	2019-04-05 08:00
+%R	41682	102158	102157	4522	4522	PR_FS	0		2019-04-09 16:00	2019-04-10 08:00
+%R	41683	102159	102158	4522	4522	PR_FS	0		2019-04-22 16:00	2019-04-23 08:00
+%R	41684	102160	102159	4522	4522	PR_FS	0		2019-04-25 16:00	2019-04-26 08:00
+%R	41685	102169	102159	4522	4522	PR_FS	0		2019-04-25 16:00	2019-05-02 08:00
+%R	41686	102162	102159	4522	4522	PR_FS	0		2019-04-25 16:00	2019-05-15 08:00
+%R	41687	102161	102160	4522	4522	PR_FS	0		2019-05-09 16:00	2019-05-10 08:00
+%R	41688	102161	102169	4522	4522	PR_FS	0		2019-05-03 16:00	2019-05-10 08:00
+%R	41689	102163	102161	4522	4522	PR_FS	0		2019-05-16 16:00	2019-05-21 08:00
+%R	41690	102164	102161	4522	4522	PR_FS	0		2019-05-16 16:00	2019-05-17 08:00
+%R	41691	102163	102162	4522	4522	PR_FS	0		2019-04-29 16:00	2019-05-21 08:00
+%R	41692	102164	102162	4522	4522	PR_FS	0		2019-04-29 16:00	2019-05-17 08:00
+%R	41693	102165	102163	4522	4522	PR_FS	0		2019-05-21 16:00	2019-05-24 08:00
+%R	41694	102165	102164	4522	4522	PR_FS	0		2019-05-23 16:00	2019-05-24 08:00
+%R	41695	102166	102165	4522	4522	PR_FS	0		2019-06-03 16:00	2019-06-03 16:00
+%T	TASKRSRC
+%F	taskrsrc_id	task_id	proj_id	cost_qty_link_flag	role_id	acct_id	rsrc_id	pobs_id	skill_level	remain_qty	target_qty	remain_qty_per_hr	target_lag_drtn_hr_cnt	target_qty_per_hr	act_ot_qty	act_reg_qty	relag_drtn_hr_cnt	ot_factor	cost_per_qty	target_cost	act_reg_cost	act_ot_cost	remain_cost	act_start_date	act_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	rollup_dates_flag	target_crv	remain_crv	actual_crv	ts_pend_act_end_flag	guid	rate_type	act_this_per_cost	act_this_per_qty	curv_id	rsrc_type	cost_per_qty_source_type	create_user	create_date	has_rsrchours	taskrsrc_sum_id
+%R	83519	102144	4522	Y			6902			480	480	6	0	6	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-01-11 08:00	2019-01-24 16:00	2019-01-11 08:00	2019-01-24 16:00	2019-01-11 08:00	2019-01-24 16:00	Y				N	mS7jpHmQPkysnz012+K58Q	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:50		
+%R	83520	102145	4522	Y			6902			336	336	7	0	7	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-01-11 08:00	2019-01-18 16:00	2019-01-11 08:00	2019-01-18 16:00	2019-01-23 08:00	2019-01-30 16:00	Y				N	E9SEvndoLUKOOgpzQIFqAw	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:51		
+%R	83521	102150	4522	Y			6902			720	720	9	0	9	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-02-11 08:00	2019-02-22 16:00	2019-02-11 08:00	2019-02-22 16:00	2019-02-11 08:00	2019-02-22 16:00	Y				N	X0bv4R9BDEuJ1BjLX/0w8Q	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:51		
+%R	83522	102152	4522	Y			6902			64	64	4	0	4	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-02-25 08:00	2019-02-26 16:00	2019-02-25 08:00	2019-02-26 16:00	2019-03-07 08:00	2019-03-08 16:00	Y				N	qRpm8sLLCkmdh8GE9MZoTQ	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:51		
+%R	83523	102156	4522	Y			6902			240	240	5	0	5	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-03-28 08:00	2019-04-04 16:00	2019-03-28 08:00	2019-04-04 16:00	2019-03-28 08:00	2019-04-04 16:00	Y				N	Sy8uRnlFO0yx4wXgbIMCpQ	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:52		
+%R	83524	102157	4522	Y			6902			192	192	8	0	8	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-04-05 08:00	2019-04-09 16:00	2019-04-05 08:00	2019-04-09 16:00	2019-04-05 08:00	2019-04-09 16:00	Y				N	ypL1+qTLTkyYA6XlzbpAfw	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:52		
+%R	83525	102160	4522	Y			6902			240	240	3	0	3	0	0	0		0.0000	0.0000	0.0000	0.0000	0.0000			2019-04-26 08:00	2019-05-09 16:00	2019-04-26 08:00	2019-05-09 16:00	2019-04-26 08:00	2019-05-09 16:00	Y				N	lCJ1TZ17PESUkY8bLGgYfw	COST_PER_QTY	0.0000	0		RT_Labor	ST_Rsrc	admin	2018-12-20 13:52		
+%E

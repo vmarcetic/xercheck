@@ -1,0 +1,46 @@
+ERMHDR	16.1	2026-01-01	Project	xercheck	SYNTHETIC	db	Project Management	USD
+%F	orphan	header
+%R	too	soon
+%Z	unsupported
+%T	PROJECT
+%F	proj_id	proj_short_name
+%R	1	SYNTHETIC
+%T	TASK
+%F	task_id	total_float_hr_cnt	proj_id	task_code	task_name	task_type
+%R	1	0	1	SM	Start milestone	TT_Mile
+%R	2	-8	1	NEG	Pour béton </script><script>alert(1)</script>	TT_Task
+%R	3	160.5	1	HIGH	High float	TT_Task
+%R	4	160	1	EQ	Exact threshold	TT_Task
+%R	5	0	1	ZERO	Zero float	TT_Task
+%R	6	-0	1	NEGZERO	Signed zero	TT_Task
+%R	7		1	BLANK	Blank float	TT_Task
+%R	8	NaN	1	NAN	Not a number token	TT_Task
+%R	9	inf	1	INF	Infinite float	TT_Task
+%R	10	1e999999	1	HUGE	Huge finite float	TT_Task
+%R	11	nope	1	TEXT	Text float	TT_Task
+%R	12	8	1	UNI	Pour béton </script><script>alert(1)</script>	TT_Task
+%R	13	0	1	FIN	Finish milestone	TT_FinMile
+%R		5	1	NOID	Missing task id	TT_Task
+%R	14	0	1	BAD	Broken arity	TT_Task	EXTRA
+%T	TASKPRED
+%F	task_pred_id	pred_type	task_id	pred_task_id	proj_id	pred_proj_id
+%R	1	PR_FS	2	1	1	1
+%R	2	PR_FS	3	2	1	1
+%R	3	PR_FS	4	3	1	1
+%R	4	PR_FS	5	4	1	1
+%R	5	PR_FS	6	5	1	1
+%R	6	PR_FS	7	6	1	1
+%R	7	PR_FS	8	7	1	1
+%R	8	PR_FS	9	8	1	1
+%R	9	PR_FS	10	9	1	1
+%R	10	PR_FS	11	10	1	1
+%R	11	PR_FS	12	11	1	1
+%R	12	PR_FS	13	12	1	1
+%T	CALENDAR
+%F	clndr_id	clndr_name
+%R	1	Five day
+%R	2
+%T	NOTE
+%R	1
+%E
+NOT A ROW
